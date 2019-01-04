@@ -1,7 +1,9 @@
 # BDM_project
 Global repository for the BDM project
 
-Divided into two main folders: BDM_app for the code and BDM_world for the creative content
+Divided into two main folders: BDM_app for the code and BDM_world for the creative content.
+
+The BDM_website foulder contains the sources for the (ugly as hell) website.
 
 
 Commit syntax: 
