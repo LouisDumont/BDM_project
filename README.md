@@ -15,3 +15,5 @@ Commit syntax:
 "fix(<file/foulder>): <changes made>" for bug/incoherence fix
 
 
+To create .exe from Python script:
+$ pyinstaller --onefile <script_name>.py
