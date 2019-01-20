@@ -1,13 +1,13 @@
 import os
 
-from choice import choice
+from choice import Choice
 
-class place:
-    def __init__(self, dev_log):
+class Place:
+    def __init__(self, dev_log=False):
+        self.name_ = "Void Place"
         self.description_ = "The place is empty place."
         self.dev_log_ = dev_log
         self.choices_ = []
-        self.links_ = []
         self.visit_num_ = 0
         if self.dev_log_:
             print("INFO: New place instance created.")
@@ -20,9 +20,8 @@ class place:
         if self.dev_log_: print("Visit numer " + str(self.visit_num_))
         return()
     
-    def add_choice(self, description, link):
-        self.choices_.append(choice(description))
-        self.links_.append(link)
+    def add_choice(self, description, res_moment):
+        self.choices_.append(Choice(description, res_moment))
     
     def present_choices(self):
         for idx, choice in enumerate(self.choices_):
@@ -35,8 +34,8 @@ class place:
         
         os.system('cls')
         chosen = int(chosen)
-        self.links_[chosen].print_description()
-        self.links_[chosen].present_choices()
-        self.links_[chosen].make_choice()
+        self.choices_[chosen].print_description()
+        self.choices_[chosen].apply_effects()
+        self.choices_[chosen].res_moment.trigger()
         
     
