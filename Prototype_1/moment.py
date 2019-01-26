@@ -1,9 +1,10 @@
 import os
 
 from choice import Choice
+from place import Place
 
 class Moment():
-    def __init__(self, place, dev_log=False):
+    def __init__(self, dev_log=False,  place=Place()):
         self.description_ = "There is nothing to do here"
         self.dev_log_ = dev_log
         self.visit_num_ = 0

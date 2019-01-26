@@ -5,7 +5,7 @@ from choice import Choice
 class Place:
     def __init__(self, dev_log=False):
         self.name_ = "Void Place"
-        self.description_ = "The place is empty place."
+        self.description_ = ""
         self.dev_log_ = dev_log
         self.choices_ = []
         self.visit_num_ = 0
