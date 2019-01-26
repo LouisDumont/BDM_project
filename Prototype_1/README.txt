@@ -22,7 +22,7 @@ Pour un retour à la ligne, insérez "\n" dans le texte.
 
 - Dans metadata.py, allez en dessous de "# Setting up the environment"
 Créez tous les noeuds en tapant pour chacun la ligne:
-<nom_du_noeud> = <nom_de_la_classe_crée_précédemement>(dev_log)
+<nom_du_noeud> = <nom_de_la_classe_crée_précédemement>()
 Tous vos noeuds sont crées, reste à les lier entre eux
 
 - Toujours dans metadata.py, allez à "# Setting up the navigation links" puis "# Related to the moments"
