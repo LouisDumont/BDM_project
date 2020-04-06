@@ -1,0 +1,7 @@
+NAME = scene_0_2
+
+PAR = Au moment où j’arrive au cordon, Choukroun finissait d’interroger un passant, sans succès comme toujours par ici, il me fait signe de la main en se dirigeant vers moi.
+PAR = J’ai toujours éprouvé un certain respect pour ce jeune policier, garder sa foi intact même après avoir rencontré une espèce capable de l’impossible et de parler à la putain de planète, c’est preuve soit d’une force mentale certaine ou de troubles graves.
+PAR = « Salut Dupin, belle journée hein ? » me dit-il avec un sourire discret, « Je suis pas encore aller à l’intérieur mais c’est pas beau à voir soi-disant, et bien sûr, personne n’a rien vu ou n’habite dans le coin, comme d’hab… »
+PAR = « J’en ai vu d’autres, ça ne sera qu’une affaire de plus à classer dans ce quartier foireux… »
+PAR = J’ai comme un mauvais pressentiment alors que je laisse Choukroun à son enquête de voisinage…

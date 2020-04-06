@@ -11,6 +11,7 @@ from choices import *
 from caracter import Caracter
 from quests import *
 from metadata import *
+#from metadata_2 import *
 
     
 if __name__=="__main__":
@@ -24,5 +25,6 @@ if __name__=="__main__":
         # Launching the adventure!
         caracter = Caracter()
         os.system('cls')
+        #bar_daytime.trigger()
         bar_daytime.trigger()
     
