@@ -1,6 +1,8 @@
 import React from 'react'
 import {View, Text, StyleSheet} from 'react-native'
 import Home_Screen from './Home_Screen'
+import NodeScreen from './Node_screen'
+import data from '../Helpers/story2'
 
 class Welcome_Screen extends React.Component{
     constructor(props){
@@ -12,7 +14,7 @@ class Welcome_Screen extends React.Component{
 
     componentDidMount(){
         if (!this.state.was_shown){
-            setTimeout(function(){this.setState({was_shown: true});}.bind(this), 3000)
+            setTimeout(function(){this.setState({was_shown: true});}.bind(this), 1000)
         }
     }
 
@@ -28,7 +30,8 @@ class Welcome_Screen extends React.Component{
             </View>
             );
             }
-        else {return(<Home_Screen/>)}
+        //else {return(<Home_Screen/>)}
+        else {return(<NodeScreen node={data[0]}/>)}
     }
 }
 
