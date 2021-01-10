@@ -1,0 +1,43 @@
+NAME = scene_1
+PAR = "Mon général! Un civil demande à vous voir. Il dit s'appeller Professeur Raoult Reiddir, et venir du laboratoire de sismologie de Strasbourg."
+PAR = Le sergent Delphau marque une pause pour calmer sa voix.
+PAR = "Il dit que c'est urgent. Dois-je le faire entrer, mon général?"
+LINK = Je n'ai pas le temps aujourd'hui... qu'il contacte le secrétariat, comme tout le monde! ---scene_2
+LINK = Oui sergent, faites-le entrer. ---scene_3
+
+NAME = scene_2
+PAR = Le sergent Delphau revient moins d'une minute plus tard:
+PAR = "Excusez-moi de vous déranger à nouveau, mon général... l'homme refuse de partir tant qu'il ne vous a pas vu. J'ai vérifié son identité. Si je peux me permettre, il a vraiment l'air très inquiet. Je pense qu'il faudra user de la force pour le mettre dehors. Quels sont vos ordres?"
+LINK = Bon, si il est si déterminé, écoutons ce qu'il a à nous dire. ---scene_3
+LINK = Pour qui il se prend, ce type? Notez son identité, et dites aux hommes de garde de le foutre dehors! ---scene_4
+
+NAME = scene_3
+PAR = Le sergent fait entrer le professeur, qui n'a pas pris le temps de quitter sa blouse pour venir, et semble aoir apporté des papiers avec lui. Très agité, celui-ci commence a parler tout en s'approchant pour vous serrer la main.
+PAR = "Bonjour monsieur! Merci de me recevoir! Je vais droit au but, c'est une urgence. Nous détectons depuis une demie-heure au labo des signaux sismiques... jamais vu auparavant... bien sûr nous avons pris le temps de vérifier, ce n'est pas une erreur. J'ai les relevés avec moi si vous vuolez les voir. Il y a une source sismique puissante qui est apparue, et... qui semble se déplacer... comme si quelque chose remontait du centre de la Terre en creusant vers sa surface... ça ne pourrait être qu'objet massif et puissant... D'après les simulations, il arrivera à la surface dans la demie-heure, à une dizaine de kilomètres d'ici. Nous n'avons aucune idée de ce que c'est, mais personne n'a jamais vu de situation pareil et ça pourrait être très dangeureux pour la population! Je vous en prie, il faut faire évacuer d'urgence la zone d'arrivée et prévenir en haut lieu d'une catastrophe pourrait arriver!"
+LINK = Etudier les relevés sismiques qu'il a apporté. ---scene_5
+LINK = Appeller tout de suite le ministre, pour lui faire part de la situation, et donner un ordre d'évacuation. ---scene_6
+LINK = Faire un rapport à votre supérieur lui rapportant les propos du scientifique, et attendre ses instructions. ---scene_7
+LINk = "Mais qu'est ce que vous racontez? C'est une blague? Partez d'ici, et si c'est sérieux demandez à vos supérieurs de faire un rapport au ministère!" (éconduire le professeur) ---scene_7
+
+NAME = scene_4
+PAR = Vous entendez des bruits dans le couloir. D'un coup, la porte s'ouvre à la volée, et un homme en blouse blanche fait irruption dans le bureau en agitant des papiers.
+PAR = "Pardonnez, Monsieur, mais on ne veut pas me laisser vous parler! C'est une urgence! Nous détectons depuis une demie-heure au labo des signaux sismiques... jamais vu auparavant... bien sûr nous avons pris le temps de vérifier, ce n'est pas une erreur. J'ai les relevés avec moi si vous vuolez les voir. Il y a une source sismique puissante qui est apparue, et... qui semble se déplacer... comme si quelque chose remontait du centre de la Terre en creusant vers sa surface... ça ne pourrait être qu'objet massif et puissant... D'après les simulations, il arrivera à la surface dans la demie-heure, à une dizaine de kilomètres d'ici. Nous n'avons aucune idée de ce que c'est, mais personne n'a jamais vu de situation pareil et ça pourrait être très dangeureux pour la population! Je vous en prie, il faut faire évacuer d'urgence la zone d'arrivée et prévenir en haut lieu d'une catastrophe pourrait arriver!"
+LINK = Etudier les relevés sismiques qu'il a apporté. ---scene_5
+LINK = Appeller tout de suite le ministre, pour lui faire part de la situation, et donner un ordre d'évacuation. ---scene_6
+LINK = Faire un rapport à votre supérieur lui rapportant les propos du scientifique, et attendre ses instructions. ---scene_7
+LINk = "Mais qu'est ce que vous racontez? C'est une blague? Partez d'ici, et si c'est sérieux demandez à vos supérieurs de faire un rapport au ministère!" (éconduire le professeur) ---scene_7
+
+NAME = scene_5
+PAR = Vous n'y comprenez rien.
+LINK = Appeller tout de suite le ministre, pour lui faire part de la situation, et donner un ordre d'évacuation. ---scene_6
+LINK = Faire un rapport à votre supérieur lui rapportant les propos du scientifique, et attendre ses instructions. ---scene_7
+LINk = "Mais qu'est ce que vous racontez? C'est une blague? Partez d'ici, et si c'est sérieux demandez à vos supérieurs de faire un rapport au ministère!" (éconduire le professeur) ---scene_7
+
+NAME = scene_6
+PAR = Le ministre vous écoute, et promet de mettre tous les acteurs concernés sur le qui-vive. Il confirme votre ordre d'évacuation de la zone, puis raccroche. Le professeur s'addresse à vous:
+PAR = "Merci monsieur, j'espère que ça suffira à protéger la population le temps qu'on comprenne ce qu'il se passe. Je me remet en contact avec mon équipe pour surveiller l'évolution de la situation."
+
+NAME = scene_7
+PAR = Le professeur s'énerve:
+PAR = "Vous ne comprenez pas?? Vous mettez en danger toute la populaiton!! Il faut agir, vite! Vous serez responsable si il y a des morts, général!"
+PAR = Puis il se retourne et part comme une furie, dépité.

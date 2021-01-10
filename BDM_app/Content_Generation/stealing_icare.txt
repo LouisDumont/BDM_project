@@ -1,0 +1,198 @@
+NAME = reveil
+PAR = Vous ouvrez péniblement les yeux...
+PAR = La lumière, déjà vive, qui passe à travers les stores de votre chambre, vous convainc que le jour est déjà levé depuis longtemps.
+PAR = Dès que vous vous redressez, vous sentez votre tête tourner: vous avez encore noyé votre chagrin dans l'alcool.
+PAR = En tournant la tête vers la table qui jouxte votre lit de fortune, vos yeux se posent sur cette lettre, que vous relisez tous les matins et tous les soirs.
+LINK = Lire la lettre. ---lecture_lettre
+
+NAME = lecture_lettre
+PAR = Vous prenez la lettre entre vos mains. Foissée des dizaines de fois par vos mains maladroites, elle serait illisible si vous ne connaissiez pas son contenu quasiment par coeur:
+PAR = "Cher Papa,
+PAR = Zala et moi avont réussi à embarquer sur un cargo à destination de la station Alpha 3. Son état ne c'est pas arrangé. Nous n'avons preque plus de crédits. Viens nous retrouver vite. Tu nous manque.
+PAR = Joe"
+PAR = Vous vous levez, déterminé à trouver un moyen de les rejoindre.
+LINK = Aller dans la salle commune. ---salle_commune_alon
+
+NAME = salle_commune_alon
+PAR = Vous arrivez dans la salle commune, petite pièce dans laquelle quelques tables en fer à l'hygiène douteuse font face à un comptoir derrière lequel le patron fait une réussite. Deux mineurs, assez face à face, discutent à voix basse.
+LINK = Parler au patron ---parler_patron
+LINK = Discuter avec les mineurs ---parler_mineurs
+
+NAME = parler_patron
+PAR = Le patron de la Pension Alon interromp sa réussite, vous regarde d'un air fatigué, et semble attendre que vous lui parliez.
+LINK = Lui demander si il connait un moyen de rejoindre Alpha 3 ---patron_icare
+LINK = Lui demander comment vont les affaires ---patron_flibustiers
+LINK = Commander un whisky ---reveil
+
+NAME = patron_icare
+PAR = Le patron vous regarde d'un air dépité avant de vous répondre:
+PAR = "Je sais pas comment vous faites vous... Vous n'avez toujours pas compris que vous sommes bloqués ici jusqu'à nouvel ordre?
+PAR = Depuis la dernière tempête solaire, personne ne se donne les moyens de venir jusqu'ici... à croire que le monde nous a oublié! Il ne reste qu'un seul vaisseau sur la colonie, l'Icare, mais le protocole interdit de le faire partir. Ceux qui resteraient se retrouveraient coincés ici, sans échapatoire!"
+LINK = Lui demander comment vont les affaires ---patron_flibustiers
+LINK = Commander un whisky ---reveil
+LINK = Sortir à l'extérieur ---dehors
+
+NAME = patron_flibustiers
+PAR = Un petit rire nerveux s'échappe de la bouche du patron, qui vous regarde dans les yeux:
+PAR = "Pas de nouveaux clients en perspective... mais ceux qui sont là sont condamnés à rester, donc pour l'instant ça me va...
+PAR = Ce qui me fait vraiment peur, c'est ces rebelles qui ont fait césession de la colonie. J'ai entendu dire qu'ils voulaient voler l'Icare et partir avec en nous abandonnant!"
+LINK = Lui demander si il connait un moyen de rejoindre Alpha 3 ---patron_icare
+LINK = Commander un whisky ---reveil
+LINK = Sortir à l'extérieur ---dehors
+
+NAME = parler_mineurs
+PAR = Les mineurs vous accueillent poliment à leur table. Ils ont déposés leurs vestes de protection jaunes vif sur le dossier de leurs chaises et sirottent une boisson étrange de couleur grise. Le plus âgé des deux vous regarde et demande:
+PAR = "Qu'est-ce qui vous amène?"
+LINK = Leur demander si ils connaissent un moyen de quitter la colonie ---mineurs_marshall_codes
+LINK = Discuter avec eux de la situation dans la colonie ---mineurs_flibustiers_indice1
+LINK = Aller discuter avec le patron ---parler_patron
+LINK = Sortir à l'extérieur ---dehors
+
+NAME = mineurs_marshall_codes
+PAR = C'est le plus jeune des deux qui vous répond:
+PAR = "Ah il y a encore des gens ici qui ne savent pas? L'Icare est le seul vaisseau qui reste sur la colonie... et il est pas prêt de partir, croyez moi! Seul le marshall en a les codes, et il ne fera rien tant que le protocole l'interdit! Il semblerait qu'on soit coincés ici pour un bon bout de temps..."
+LINK = Discuter avec eux de la situation dans la colonie ---mineurs_flibustiers_indice1
+LINK = Aller discuter avec le patron ---parler_patron
+LINK = Sortir à l'extérieur ---dehors
+
+NAME = mineurs_flibustiers_indice1
+PAR = "Ah c'est sûr la situation est un peu compliquée pour nous... ceux qu'on appelle "les rebelles" - vous savez, qui ont fait cécession contre le marshall -... Et bien ils nous empêchent de sortir de la colonie! J'ai entendu dire qu'ils flinguaient tous ceux qui sont pas des leurs! Ils ont un mot de passe entre eux, on m'a dit que c'était un nom de couleur... mais j'ai pas réussi à en savoir plus."
+LINK = Leur demander si ils connaissent un moyen de quitter la colonie ---mineurs_marshall_codes
+LINK = Aller discuter avec le patron ---parler_patron
+LINK = Sortir à l'extérieur ---dehors
+
+NAME = dehors
+PAR = Les bâtiments de la colonie sont péniblements éclairés par les rayons ocres de Gliese 581, dont on voit l'énorme sphère luire dans le ciel. Les passerelles reliant les différents bâtiments sont quasiment désertes, seuls les quelques mendiants de la colonie restant à l'extérieur plus longtemps que nécessaire en cette saison.
+PAR = Les lumières de la Chapelle apportent un réconfort bienvenu, tandis que celles du bureau du Marshall et de la Pension Alon persent à peine l'atmoshère chargée de particules. A l'entrée de la colonie, vous pouvez apercevoir des gardes armés surveillant les fôrets environantes. D'autres, sur un plateforme à l'écart de bâtiments, veillent sur l'Icare.
+LINK = Entrer dans la Pension Alon ---salle_commune_alon
+LINK = Vous présenter au bureau du Marshall ---bureau_marshall
+LINK = Toquer à la porte de la Chapelle ---chapelle
+LINK = Discuter avec les mendiants de la station ---discuter_mendiants
+LINK = S'approcher de l'Icare ---plateforme_icare
+LINK = Quitter la colonie et s'aventurer dans la fôret ---foret
+
+NAME = discuter_mendiants
+PAR = Les mendiants vivent sous un petit entrepôt, qui vous semble inutilisé depuis des mois. Ils vous regardent vous approcher avec méfiance et se taisent à votre arrivée. Certains boivent en grimaçant dans de grandes gourdes recouvertes d'alluminium.
+PAR = L'un d'eux s'approche et vous demande un pièce.
+LINK = Lui donner une pièce et lui demander quelles sont les dernières rumeurs. ---mendiants_flibustier_indice2
+LINK = Prendre l'une des gourdes et boire son contenu. ---reveil
+LINK = Retourner au centre de la colonie ---dehors
+
+NAME = mendiants_flibustier_indice2
+PAR = Son regard vif accroche le votre et il ses lèvres s'écartent pour laisser échapper un grand sourire.
+PAR = "Vous êtes bien généreux étranger... surtout en ces temps difficiles! Je vais dire un truc qui pourra vous intéresser... ou pas... mon amie Olga c'est aventurée dans la fôret et a surpris une conversation entre des rebelles... apparement, leur mot de passe, c'est un nom de fruit!"
+PAR = L'homme éclate de rire: "Ci c'est pas ridicule ça... vous parlez d'une bande de bras-cassés!"
+LINK = Le remercier et retourner au centre de la colonie ---dehors
+
+NAME = chapelle
+PAR = Vous arrivez devant la Chapelle, un petit bâtiment d'alliage vert dont le haut des murs est couvert de projecteur illuminant les alentours. Au moment où vous vous approchez de la porte, celle-ci s'ouvre toute seule et laisse entrevoir un intérieur sombre. 
+LINK = Entrer ---chapelle_interieur
+LINK = Retourner au centre de la colonie ---dehors
+
+NAME = chapelle_interieur
+PAR = Vous vous avancez dans le bâtiment, mais l'absence de fenêtres et le faible éclairage vous obligent à vous déplacer quasiment à tatons. Il ne semble y avoir personne, mais vous entendez des voix venir du confessional:
+PAR = "Mais vous comprenez, mon Père... j'ai peur pour le Marshall... depuis que notre situation c'est dégradé, il a recommencé à boire. Quand il est ivre, il n'est plus du tout capable d'assumer ses fonctions..."
+LINK = Quitter la Chapelle et retourner au centre de la colonie ---dehors
+
+NAME = bureau_marshall
+PAR = Vous trouvez le Marshall a son bureau, devant quelques cellules d'isolement -toutes vides aujourd'hui-. En approchant, vous ne pouvez vous empêcher de remarquer qu'il tient une enveloppe entre ses mains. Elle porte la mention "CODES ICARE". Vous voyez également une flasque de rhum posée sur son bureau.
+PAR = Le Marshall vous salue d'un air fatigué et dit:
+PAR = "Salut citoyen... qu'est ce qui vous amène aujourd'hui?"
+LINK = Lui proposer de boire un coup pour célébrer cette belle journée ---marshall_ivre
+LINK = Lui arracher l'enveloppe des mains ---marshall_fail
+LINK = Ressortir du bureau ---dehors
+
+NAME = marshall_ivre
+PAR = La Marshall accepte joyeusement votre proposition. Il lache l'enveloppe, se saisit de la flasque posée devant lui, et sort un petit verre d'un tiroir. Il remplit le verre à moitié et le fait glisser vers vous. Puis, devant vos yeux ébahis, boit au goulot le reste de la flasque. 
+PAR = Après vous avoir examiné un instant, il commence à parler:
+PAR = "A votre santé, camarade! Vous, vous faites partie des bons, de ceux qui savent continuer à se serrer les coudes. Pas comme les autres gars qui sont partis dans la fôret... c'est pas des mauvais bougres à l'origine. Mais si ils nous volent l'Icare, ceux qui resteront à terre, ils vont faire comment? Vivre ici indéfiniement, coupé de la civilisation en attendant qu'un jour la paix la haut et que quelqu'un daigne nous envoyer de l'aide? Nan, tant que l'Icare reste, les gens gardent de l'espoir, ils se sentent encore connectés au reste du monde. Sans lui, cette colonie, c'est juste une poignée de bungallow perdus sur une planète hostile...
+PAR = Putain de guerre... non seulement ils se butent par million dans tous les systèmes habités, mais ça ruine aussi la vie des colons sans histoires, comme nous. Les "rebelles", dans la fôret, ils seraient encore des notres si on avait assez de vaisseaux pour tous partir! Putain de guerre..."
+PAR = Sur ces derniers mots, sa voix décline, et finit par s'éteindre. Il suffit de quelques secondes pour que le Marshall se mette à ronfler comme une fusée au décolage.
+LINK = Prendre les codes de l'Icare ---prendre_codes_icare
+LINK = Ressortir du bureau ---dehors
+
+NAME = prendre_codes_icare
+PAR = Vous vous saisissez de l'enveloppe, et l'ouvrez pour regarder à l'intérieur.
+PAR = Vous lisez:
+PAR = "----- CONFIDENTIEL: FORCES DU MAINTIENT DE L'ORDRE GALACTIQUE -----
+PAR = ----- DETRUISEZ LE MESSAGE SUIVANT SI IL NE VOUS EST PAS DESTINÉ -----
+PAR = - RESPONSABLE: SECTEUR GLIESE 581 - COLONIE M20 - M.FLOYD ROBEN
+PAR = - OBJET: VEHICULE DE SECOUR CMVS18 ICARE - CODES
+PAR = - CONTENU: EBG451ER"
+PAR = Vous reposez ensuite l'enveloppe là où le Marshall l'avait laissée.
+LINK = Ressortir du bureau ---dehors
+
+NAME = marshall_fail
+PAR = Vous vous jetez vers le Marshall tentez de lui arracher lui prendre l'enveloppe. Le Marshall lutte, et finit par vous asséner un grand coup de poing dans la tempe.
+PAR = Alors que votre vision s'obscurcit, vous entendez le Marshall parler:
+PAR = "Et bien mon gaillard, vous vous allez me faire un petit séjour en cellule..."
+PAR = 
+PAR = GAME OVER
+LINK =  ---reveil
+
+NAME = foret
+PAR = Vous laissez les portes de la colonie derrière vous et commencez à vous aventurer sur le sentier qui serpente dans la fôret de Gliese 581-g. Au milieu des grandes feuilles bleutées, vous ne discernez pas de vie animale, et n'entendez aucun bruit.
+PAR = Vous marchez quelques minutes, puis tombez nez à nez sur deux hommes portant des semblants d'uniformes. Immédiatement, l'un deux sort un pistolet et le braque sur vous en criant:
+PAR = "Vous êtes qui vous? C'est quoi le mot de passe?"
+LINK = Répondre "Citron" ---foret_game_over
+LINK = Répondre "Orange" ---foret_rebelles
+LINK = Répondre "Fraise" ---foret_game_over
+LINK = Répondre "Kiwi" ---foret_game_over
+LINK = Répondre "Cerise" ---foret_game_over
+
+NAME = foret_game_over
+PAR = L'homme vous regarde d'un air méchant:
+PAR = "Bien essayé... je me disais bien que t'avais pas l'air des notres! Retourne d'où tu viens l'amis, et te mêle pas de nos affaires!"
+PAR = Il retourne son pistolet et vous donne un grand coup de crosse sur la tempe.
+PAR = 
+PAR = GAME OVER
+LINK =  ---reveil
+
+NAME = foret_rebelles
+PAR = L'homme range son pistolet et s'approche:
+PAR = "Autant pour moi, je ne savais pas que vous étiez des notres!"
+PAR = Puis il laisse son regard s'éclaircir et vous dit:
+PAR = "Vous serez heureux d'apprendre que notre informateur nous a enfin transmis les codes de l'Icare. On s'apprête à mettre les voiles! Vous êtes toujours avec nous?"
+LINK = Acquiser et aider les rebelles ---fin_rebelles
+LINK = S'excuser et retourner à la colonie ---dehors
+
+NAME = fin_rebelles
+PAR = Vous êtes rapidement rejoints par le reste de la troupe, d'un quinzaine de personnes.
+PAR = A la tombée du jour, vous vous introduisez sur la plateforme de l'Icare. Les gardes sont rapidement maîtrisés. Bill, l'homme que vous avez rencontré dans la fôret, se charge de rentrer les codes d'accès, et fait monter tout le groupe à bord du vaisseau.
+PAR = Quand les moteurs de l'Icare démarrent, vous apercevez sur ses caméras les habitants de la colonie, qui sortent en courant des bâtiments et se dirigent vers vous. Vous êtes trop loin pour voir leurs visages, alors que vous vous élevez dans les cieux.
+PAR = Bill se tourne vers vous:
+PAR = "Et vous alors, c'est quoi votre destination?"
+PAR = 
+PAR = FIN
+
+NAME = plateforme_icare
+PAR = Les gardes vous regardent attentivement alors que vous vous approchez, mais ne semblent pas vouloir vous empêcher l'examiner le vaisseau.
+PAR = D'après vos maigres connaissances, il semble ne nécessiter qu'un membre d'équipage, mais pouvoir accueillir au moins une dizaine de passagers. Vous remarquez qu'il semble équipé d'un moteur inter-system récent, et êtes surpris par son bon état, peu fréquent dans les nouvelles colonies. La porte est peinte du sigle du fabriquant: Celestial Manufactures.
+LINK = Tenter de voler le vaisseau ---rentrer_code_icare
+LINK = Retourner au centre de la colonie ---dehors
+
+NAME = rentrer_code_icare
+PAR = Après avoir vérifié que les gardent ne vous voient pas, vous cliquez sur l'écran d'identification.
+PAR = Un enregistrement automatique se déclanche et vous demande d'entrer le code d'identification. Vite, les gardes ont du vous entendre!
+LINK = Rentrer HYTR4892 ---echec_vol
+LINK = Rentrer 84GGSC2E ---echec_vol
+LINK = Rentrer ZEV84A5F ---echec_vol
+LINK = Rentrer RD45VRQR ---echec_vol
+LINK = Rentrer JEFX8HTF ---echec_vol
+LINK = Rentrer EBG451ER ---vol_icare
+LINK = Rentrer VDD5B5B2 ---echec_vol
+
+NAME = echec_vol
+PAR = Un voyant rouge s'allume et une sonnerie stridente retentit.
+PAR = Vous n'avez nulle part où vous cacher des gardes, qui vous attrapent et menottent sans vergogne, pendant qu'ils vous déclament vos droits.
+PAR = 
+PAR = GAME OVER
+
+NAME = vol_icare
+PAR = Un voyant vert s'allume, puis la porte s'ouvre dans un grand grincement.
+PAR = Vous vous ruez à l'intérieur du viasseau et refermez la porte derrière vous. Rapidement, vous allumez le pilote automatique, ignorant le bruit des gardes tambourinant de toutes leurs forces à la porte.
+PAR = Quand les moteurs de l'Icare démarrent, vous apercevez sur ses caméras les habitants de la colonie, qui sortent en courant des bâtiments et se dirigent vers vous. Vous êtes trop loin pour voir leurs visages, alors que vous vous élevez dans les cieux.
+PAR = La voix du pilote automatique romp le silence:
+PAR = "Quelle est notre destination, Capitaine?"
+PAR = 
+PAR = FIN

@@ -2,48 +2,48 @@ NAME = scene_1
 PAR = Le palais du Conclave m’a toujours impressionné, ses grands murs blancs, ses parterres de fleurs sublimes, je me rappelle jouer entre ses colonnes recouvertes de vignes étant enfant. C’est la première fois pourtant que je m’y rends officiellement, en tant que représentant d’une maison princière, et vais siéger dans la grande salle du Conclave. Père a surement raison, il est grand temps que je prenne ma place à sa suite dans la vie politique surtout dans cette période troublée où le semble imminent.
 PAR = Je prends ainsi place, ma place, avec une certaine fierté dans cette salle verdoyante qui a vu passé tant d’elfes illustres avant moi. Les représentants des douze autres maisons ne tardent pas à remplir le Conclave, parfois accompagnés de conseillers ou serviteurs nains amenant victuailles et boissons aux membres présents.
 PAR = Les premières conversations sont courtoises mais je perçois tout de même la tension palpable planant dans la pièce, une telle réunion extraordinaire demandée par le Héraut de la Terre, vu la situation actuelle, entraînera forcément des décisions lourdes de conséquences.
-LINK = Examiner les convives : ---scene_2
-LINK = Attendre l’arrivée du Hérault de la Terre : ---scene_3
+LINK = Examiner les convives ---scene_2
+LINK = Attendre l’arrivée du Hérault de la Terre ---scene_3
 
 NAME = scene_2
 PAR = Bien que le placement des princes soit fait par ancienneté, je ne peux m’empêcher de remarquer la formation de deux groupes distincts dans l’assemblée. Que ce soit au sujet des questions vis-à-vis du dessus ou pour la simple politique interne à notre peuple ces deux regroupements de familles se sont toujours opposés et cette assemblée exceptionnelle ne fait pas exception.
 PAR = On a ainsi du côté gauche le clan mené par le vénérable prince Velcaryn, grand héros de la guerre contre les Nains, il a su maintenir l’ordre avec brio des années durant et s’attirer la sympathie de nombreuses familles par son sens de l’organisation et sa mise en avant du peuple elfique. Cette opinion est un peu trop extrême au goût de certaines familles princières dont le prince Farmenor fait partie.
 PAR = Lui, doyen du Conclave, reste impassible aux rictus narquois lancés par son opposant. Il prône une politique plus proche de la Terre et cherchant une plus grande harmonie entre les espèces et avec la Nature. Il était évident que la situation actuelle allait les opposer une fois encore.
-LINK = Attendre l’arrivée du Hérault de la Terre : ---scene_3
+LINK = Attendre l’arrivée du Hérault de la Terre ---scene_3
 
 NAME = scene_3
 PAR = Les deux groupes continuent de se toiser du regard et discutent entre eux en attendant l’arrivée imminente du Hérault de la Terre. Je me souviens des nombreuses fois où j’ai pu voir cet elfe, parlant pour la Terre elle-même, lors de différentes cérémonies mais c’est la première fois que je pourrai le voir d’aussi près et même lui parler. J’espère être à la hauteur des attentes de ma famille et du peuple entier lors de ce conclave décisif.
 PAR = Pensif au milieu de cette respectable assemblée, je me fais soudain heurter par un serviteur nain trébuchant sur une racine et renversant les verres qu’il portait sur ma tunique et sur la nappe millénaire de la salle du conclave. Le nain rampe au sol et se confond d’excuse, implorant mon pardon alors que je me lève, taché de vin.
-LINK = Ne rien faire : ---scene_4
-LINK = Se moquer : ---scene_5
-LINK = Le faire escorter en dehors de la salle : ---scene_6
-LINK = Le rabrouer sèchement : ---scene_7
-LINK = Le battre : ---scene_8
-LINK = Le tuer : ---scene_9
+LINK = Ne rien faire ---scene_4
+LINK = Se moquer ---scene_5
+LINK = Le faire escorter en dehors de la salle ---scene_6
+LINK = Le rabrouer sèchement ---scene_7
+LINK = Le battre ---scene_8
+LINK = Le tuer ---scene_9
 
 NAME = scene_4
 PAR = Bien que taché, je considère que cet incident n’a que peu d’importance et fait comme si de rien n’était en reprenant ma place. Les autres princes n’ont de toute façon rien remarqué, le Héraut arrivant dans la salle du Conclave au même moment. Je me réinstalle convenablement et me prépare à écouter les nouvelles apportées par le Hérault alors que le serviteur nain est entraîné hors de la salle par ses semblables.
-LINK = Ecouter le Hérault : --- scene_10
+LINK = Ecouter le Hérault ---scene_10
 
 NAME = scene_5
 PAR = Malgré le côté solennel de la situation, je ne peux réprimer un petit rire alors que le nain rampe au sol, tentant vainement de limiter les dégâts suite à sa maladresse. Amusé par sa tentative désespérée de camoufler son erreur, je le repousse doucement en me moquant de sa gaucherie, insinuant son inhérence à cette espèce de petite taille si malhabile en société. Si je remarque certains sourires discrets dans l’assemblée, d’autres ne m’adressent que des regards froids et désapprobateurs. Je me rassoie prestement, tentant de faire oublier cet incident alors que le Hérault fait son entrée.
-LINK = Ecouter le Hérault : ---scene_10
+LINK = Ecouter le Hérault ---scene_10
 
 NAME = scene_6
 PAR = Alors que le serviteur rampe au sol en marmonnant des excuses et en tentant vainement de limiter les dégâts de sa maladresse, j’interpelle rapidement ses  semblables restés en retrait. Je leur fais signe de prestement venir relever le fautif et de le faire quitter la salle. Une telle réunion du Conclave ne saurait être retardée ou perturbée par un évènement aussi mineur surtout dans un moment critique comme celui-ci. Le calme revenu, je me rassieds discrètement, répondant silencieusement aux signes de tête approbateur du prince Farmenor  et de ses partisans alors que le Hérault fait son entrée.
-LINK = Ecouter le Hérault : ---scene_10
+LINK = Ecouter le Hérault ---scene_10
 
 NAME = scene_7
 PAR = Alors que le serviteur rampe au sol en marmonnant des excuses et en tentant vainement de limiter les dégâts de sa maladresse, je lui intime l’ordre de se taire et de quitter cette assemblée au plus vite. Une telle réunion du Conclave ne saurait être retardée ou perturbée par un évènement aussi mineur surtout dans un moment critique comme celui-ci. Le nain ayant quitté la pièce rapidement suite à cette invective, je me rassieds discrètement, répondant silencieusement aux signes de tête approbateur du prince Velcaryn  et de ses partisans alors que le Hérault fait son entrée.
-LINK = Ecouter le Hérault : ---scene_10
+LINK = Ecouter le Hérault ---scene_10
 
 NAME = scene_8
 PAR = Le serviteur vient ramper à mes pieds, implorant mon pardon pour sa maladresse, tentant vainement d’essuyer les taches sur ma tunique. Un tel affront de la part d’une espèce inférieure ne saurait être toléré, énervé par l’outrecuidance de ce nain, je le repousse violemment. Excédé par son comportement je lève le bras et commence à frapper cet esclave malhabile jusqu’à ce que la voix du prince Farmenor me rappelle à l’ordre. Retrouvant mon calme, je jette le nain en direction de la sortie et retourne m’asseoir sous les regards et remarques désapprobateurs de l’assemblée critiquant mon manque de retenue. L’arrivée du Hérault détourne rapidement l’attention et m’aide à me faire oublier, même si il l’avait tout de même bien mérité.
-LINK = Ecouter le Hérault : ---scene_10
+LINK = Ecouter le Hérault ---scene_10
 
 NAME = scene_9
 PAR = Le serviteur vient ramper à mes pieds, implorant mon pardon pour sa maladresse, tentant vainement d’essuyer les taches sur ma tunique. Comment une créature inférieure peut-elle oser me toucher ainsi ? Surtout après avoir ruiné une tunique et une nappe inestimable, plus ancienne que son espèce elle-même ! Une telle maladresse ne saurait être pardonnée. Dégainant mon sabre de cérémonie, je tranche la tête du nain d’un coup vif et précis, l’envoyant rouler vers l’entrée, alors que son sang noir dégouline dans la salle du Conclave sous les regards horrifiés des princes assemblés. Alors que je rengaine mon arme, le prince Farmenor appelle la garde, leur demandant de m’escorter hors du palais, me congédiant pour avoir fait couler le sang dans ce saint Conclave. Je me laisse entraîner dehors, bouillonnant de colère et espérant n’avoir pas complètement gâché ma chance…
-LINK = Attendre... : ---scene_11
+LINK = Attendre... ---scene_11
 
 NAME = scene_10
 PAR = Laissant de côté cet incident, je me tourne vers le Héraut, écoutant ce que la Terre doit nous dire à travers lui, tous les autres princes également impatients de nouvelles. Nous l’observons silencieusement alors qu’il vient doucement rejoindre le centre de la pièce, l’âge et son lien permanent avec la Terre pesant sur ses épaules sans toutefois atténuer la noblesse de sa démarche.
@@ -53,6 +53,30 @@ PAR = « Mes frères, mes soeurs, vous avez comme moi entendu le triste message
 PAR = J’applaudis poliment avec les partisans du prince Farmenor à la fin de son discours, réfléchissant à sa vision pacifique des choses alors que le prince Velcaryn émet un petit gloussement narquois et se lève à son tour.
 PAR = « Noble doyen, je ne saurai trop vous remercier de partager avec cette assemblée votre vision des choses fort... intéressante voire... utopique ?  Néanmoins, du fait de votre longue expérience je m’attendais à un peu plus de maturité de votre part. Vous foulez notre Terre chérie depuis bien plus longtemps que moi, vous devez donc avoir encore plus d’exemples des exactions et destructions incessantes causés par les Humains. L’Histoire nous a prouvé qu’on ne peut faire confiance à cette espèce qui sera toujours prompte à répandre la mort et la désolation et n’aura jamais aucune considération pour la Terre et la Nature, pire ils envisagent même d’essayer de la quitter pour continuer leurs méfaits loin de notre Mère sacrée. Ce sont des parasites. De plus, messire Farmenor vous êtes bien placés pour savoir comment ces êtres interprètent vos conseils de paix et d’amour, les exceptions au non-contact que vous avez mis en œuvre il y a cela près de 3500 et 2000 ans n’ont pas été un franc succès n’est-ce pas ? Entraînant d’innombrables morts, guerres et souffrance au nom de l’idéal d’amour que vous leur avez inculqués. Même vous devez reconnaître que le seul moyen de protéger la Terre et les Hommes eux-mêmes sera de prendre le contrôle de la surface et de gouverner pour eux, pour leur propre bien. Le conflit est inévitable et ce sera un maigre prix à payer pour la paix pour tous les enfants de la Terre. Vous les appelez les enfants de la Terre, mais mes frères, mes soeurs, allons nous rester les bras croisés face à ce matricide annoncé ? Éliminons la menace avant qu’elle se concrétise. Frappons vite et fort. Je vous en conjure. Protégeons notre Mère tant qu’il en est encore temps.»
 PAR = Les applaudissements se font un peu plus appuyés après le discours du prince Velcaryn, me laissant ainsi que toute l’assemblée en proie à de nombreuses réflexions sur la marche à suivre.
+LINK = Apporter son soutien au Prince Farmenor ---scene_12
+LINK = Apporter son soutien au Prince Velcaryn ---scene_13
+LINK = Se proposer en tant que Champion ---scene_14
 
 NAME = scene_11
 PAR = Ainsi le prince Velcaryn a été choisi comme champion de la Terre et la guerre contre les êtres inférieurs du dessus est lancée. Au moins lui et ses partisans ne m’ont pas complètement oublié… Certes je n’aurai pas un poste haut placé dans l’administration comme j’aurais pu espérer néanmoins ce n’est pas plus mal, je n’aurais jamais supporté l’hypocrisie des sphères dirigeantes. S’ils prendront leurs décisions dans leurs beaux jardins, loin des conflits, ce sera moi et mes elfes qui aurons le sang des félons à la Terre sur les mains. Mon nom sera synonyme de terreur pour les hommes et de respect pour ces elfes dans leurs palais. Je ferai tout ce qu’il faut pour ramener la santé à la Terre même si je dois éliminer toute la vermine du dessus un par un. La Nature retrouvera sa superbe, les arbres repousseront, les animaux se multiplieront et les fleurs refleuriront, abreuvées du sang des Hommes…
+
+NAME = scene_12
+PAR = Après une longue période de réflexion et personne d’autre n’ayant vraiment d’avis très différents des deux exposés, il convient de passer au vote. J’ai vraiment ressenti quelque chose lors du discours du prince Farmenor, notre place sur cette planète et d’accompagner les autres espèces pour vivre en harmonie avec elles et avec la Nature, pas de les dominer comme bon nous semble même si c’est avec les meilleures raisons du monde. Fort de cette conviction je décide d’apporter mon soutien à la candidature du doyen Farmenor en tant que Champion de la Terre pour résoudre cette crise le plus pacifiquement possible, tendant une main amicale aux Hommes pour une paix durable entre tous les enfants de la Terre.
+LINK = Attendre les résultats ---scene_15
+
+NAME = scene_13
+PAR = Après une longue période de réflexion et personne d’autre n’ayant vraiment d’avis très différents des deux exposés, il convient de passer au vote. Le discours du prince Velcaryn m’a véritablement ouvert les yeux, l’espèce humaine est dangereuse, pour la Nature comme pour elle-même, elle doit être contrôlée pour le bien de tous y compris le sien. Si une guerre est nécessaire pour leur faire entendre raison, quelques vies humaines sont un sacrifice acceptable pour l’avenir de leur espèce et de tous les enfants de la Terre. Fort de cette conviction je décide d’apporter mon soutien à la candidature du prince Velcaryn en tant que Champion de la Terre pour résoudre cette crise quel qu’en soit le prix, montrant la voie à suivre aux Hommes d’une main ferme mais juste.
+LINK = Attendre les résultats ---scene_16
+
+NAME = scene_14
+PAR = Ayant écouté attentivement les deux discours des candidats, je me lève à mon tour, annonçant ma candidature. J’appuie sur le fait que ma relative jeunesse par rapport aux nobles princes se présentant peut m’apporter une énergie et une force nécessaire dans une telle situation et à un tel poste ainsi qu’un regard neuf et frais sur ces événements compliqués. Evidemment un Champion de la Terre ne saurait être efficace sans le soutien de ses pairs travaillant avec lui, et j’essaye de chercher dans le regard des autres princes la lueur d’un potentiel soutien de leur part. Alors que je parcours la salle du regard, je remarque des sourires et signes de tête amicaux venant du prince Farmenor et de ses partisans, confiant, je reprends mon discours allant dans le sens de la paix et de l’harmonie entre les enfants de la Terre. Une fois fini, je me rassois sous les applaudissements des partisans du doyen, m’assurant de leur soutien à ma candidature, conscients qu’un candidat plus jeune sera plus à même de mener cette difficile tâche, soutenu par les conseils d’un sage tel que le prince Farmenor.
+LINK = Attendre les résultats ---scene_17
+
+NAME = scene_15
+PAR = Malheureusement malgré toute l’éloquence dont a pu faire preuve le doyen Farmenor et le soutien que vous et ses partisans lui ont apporté, le prince Velcaryn reçoit plus de vote et est nommé Champion de la Terre. Il entreprend donc de préparer le conflit contre les Humains s’ils refusent de se soumettre. Il compose également le gouvernement qui devra gérer le dessus et les ramener dans le droit chemin. Ses partisans reçoivent ainsi des postes prestigieux et à responsabilité alors que les autres princes loyaux au doyen Farmenor et moi-même ne recevons que des rôles subalternes loin de toute gloire et décisions importantes. Espérons que nous pourrons tout de même limiter la casse et les effusions de sang depuis les placards où on nous a collés…
+
+NAME = scene_16
+PAR = Suite à son discours plein d’éloquence et de véhémence le prince Velcaryn reçoit plus de vote et est nommé Champion de la Terre. Ses partisans et moi-même sommes extatiques de voir notre point de vue si bien reçu par nos confrères, et d’être maintenant en mesure de faire tout notre possible pour préserver la Terre. Il entreprend donc de préparer le conflit contre les Humains s’ils refusent de se soumettre. Il compose également le gouvernement qui devra gérer le dessus et les ramener dans le droit chemin. Ses partisans reçoivent ainsi des postes prestigieux et à responsabilité alors que les autres princes loyaux au doyen Farmenor ne reçoivent que des rôles subalternes loin de toute gloire et décisions importantes. Je suis très heureux et fier d’être choisi pour organiser et diriger les futurs services chargés de maintenir la paix et l’ordre à la surface, c’est un poste très honorable et je ferai de mon mieux pour en être digne et servir le plus fidèlement possible les intérêts de notre Terre adorée et de ses enfants favoris…
+
+NAME = scene_17
+PAR = Malheureusement malgré toute l’éloquence dont a pu faire preuve le doyen Farmenor et moi-même à sa suite, le prince Velcaryn reçoit plus de vote et est nommé Champion de la Terre. Il entreprend donc de préparer le conflit contre les Humains s’ils refusent de se soumettre. Il compose également le gouvernement qui devra gérer le dessus et les ramener dans le droit chemin. Ses partisans reçoivent ainsi des postes prestigieux et à responsabilité alors que les autres princes loyaux au doyen Farmenor et moi-même ne recevons que des rôles subalternes loin de toute gloire et décisions importantes. Espérons que nous pourrons tout de même limiter la casse et les effusions de sang depuis les placards ou on nous a collés…
